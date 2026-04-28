@@ -1,6 +1,6 @@
 variable "ami_id"{
     type = string
-    default = "ami-0868dcfe959a48f15"
+    default = "ami-0220d79f3f480ecf5" 
     description = "RHEL 8.7 image for us-east-1 region"
 
 }
