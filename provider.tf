@@ -16,7 +16,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "terraform-ytgkuygyuyyy"
+    bucket = "terraform-test-bucket-0987"
     key    = "Kubernetes_state_file"
     region = "us-east-1"
     encrypt = true
